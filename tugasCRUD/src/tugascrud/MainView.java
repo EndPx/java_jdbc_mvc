@@ -196,7 +196,7 @@ public class MainView extends javax.swing.JFrame {
         // TODO add your handling code here:
         try {
             mc.delete();
-            JOptionPane.showMessageDialog(this, "Data Movie Berhasil Ditambahkan");
+            JOptionPane.showMessageDialog(this, "Data Movie Dihapus");
         } catch (RuntimeException e) {
             JOptionPane.showMessageDialog(this, "Error: " + e.getMessage());
         } finally {
